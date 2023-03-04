@@ -20,7 +20,7 @@ export class ProductsProviderService {
             { id: '12', name: 'Postre 3', description: 'Description 12', price: 1200, image: 'https://picsum.photos/200/300?random=12', category: 'Postres', isRecomended: false, isAvailable: true, isOnSale: false },
             { id: '13', name: 'Bebida 1', description: 'Description 13', price: 1300, image: 'https://picsum.photos/200/300?random=13', category: 'Bebidas', isRecomended: false, isAvailable: true, isOnSale: false },
             { id: '14', name: 'Bebida 2', description: 'Description 14', price: 1400, image: 'https://picsum.photos/200/300?random=14', category: 'Bebidas', isRecomended: false, isAvailable: true, isOnSale: false },
-            { id: '15', name: 'Bebida 3', description: 'Description 15', price: 1500, image: 'https://picsum.photos/200/300?random=15', category: 'Bebidas', isRecomended: false, isAvailable: true, isOnSale: false },
+            { id: '15', name: 'Xavi perro 1', description: 'Description 15', price: 1500, image: 'https://picsum.photos/200/300?random=15', category: 'Bebidas', isRecomended: false, isAvailable: true, isOnSale: false },
         ];
         return products;
     }
