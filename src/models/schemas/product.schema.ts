@@ -1,10 +1,11 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
-import { HydratedDocument } from 'mongoose';
+import { Document, HydratedDocument } from 'mongoose';
+import { IProduct as IProduct } from '../interfaces/product';
 
 export type ProductDocument = HydratedDocument<Product>;
 
 @Schema()
-export class Product {
+export class Product extends Document implements IProduct{
     @Prop()
     id: string;
     
