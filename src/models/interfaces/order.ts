@@ -1,12 +1,6 @@
-import { IProduct } from "./product";
+import { IItem } from "./item";
 
 export interface IOrder {
     items: IItem[];
     totalQuantity: number;
-}
-
-export interface IItem {
-    product: IProduct;
-    quantity: number;
-    totalPrice: number;
 }
